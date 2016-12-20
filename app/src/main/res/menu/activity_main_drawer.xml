@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Figures">
+        <menu>
+            <item
+                android:id="@+id/circle"
+                android:icon="@drawable/circle"
+                android:title="Circle" />
+            <item
+                android:id="@+id/square"
+                android:icon="@drawable/square"
+                android:title="Square" />
+            <item
+                android:id="@+id/kappa"
+                android:icon="@drawable/kappa"
+                android:title="Kappa" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/colour"
+        android:title="Colour" />
+    <item
+        android:id="@+id/clear"
+        android:title="Clear" />
+
+</menu>
